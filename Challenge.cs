@@ -6,6 +6,9 @@ namespace AlgorithmPractice
 {
     public class Challenge
     {
+        //converts a string to its base64 equivalent string... 
+        //just like Convert.ToBase64String(Encoding.UTF8.GetBytes(string))
+        //but without having to go through the byte generation process seperately
         public static string ToBase64(string str)
         {
             Dictionary<string, string> sextet = new Dictionary<string, string>
